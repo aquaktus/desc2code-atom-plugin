@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle desc2code-atom-plugin",
+        "command": "desc2code-atom-plugin:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "desc2code-atom-plugin",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "desc2code-atom-plugin:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
